@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Sostanza_LiveHelp::livehelp"
+             title="LiveHelp" module="Sostanza_LiveHelp" sortOrder="51" resource="Sostanza_LiveHelp::livehelp"/>
+        <add id="Sostanza_LiveHelp::livehelp_configuration"
+             title="Configuration"
+             module="Sostanza_LiveHelp" sortOrder="99"
+             parent="Sostanza_LiveHelp::livehelp"
+             action="adminhtml/system_config/edit/section/livehelp"
+             resource="Sostanza_LiveHelp::livehelp_configuration"/>
+    </menu>
+</config>

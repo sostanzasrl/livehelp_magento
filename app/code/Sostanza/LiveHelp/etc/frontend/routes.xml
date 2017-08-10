@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--
+    <frontName>/<controler_folder_name>/<controller_class_name>
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
+    <router id="standard">
+        <route id="livehelp" frontName="livehelp">
+            <module name="Sostanza_LiveHelp"/>
+        </route>
+    </router>
+</config>
